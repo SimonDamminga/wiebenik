@@ -1,0 +1,75 @@
+body {	
+	background-color: white;
+}
+img{
+	border-style: inset;
+	border-color: #b3b3b3;
+	border-width: 7px;
+	position: center;
+}
+img.dingus{
+	border-style: inset;
+	border-color: #b3b3b3;
+	border-width: 7px;
+	
+	padding-top: 407px;
+	padding-left: 607px;
+}
+header{
+	background-color: #333333;
+}
+a {
+	text-decoration: none;
+	color: #D8D8D8;
+	text-align: center;
+}
+a:hover{
+	color: #00FFB7;
+}
+h1.titel {
+	text-align: center;
+	background-color: #3366cc;
+	color: #D8D8D8;
+	font-family: Arial;
+	font-size: 50px;
+}
+.navClass > ul {
+	background-color: #5E5D5D;
+	color: #D8D8D8;
+	font-size: 25px;
+	font-family: Arial;
+
+}
+.navClass > ul > li  {
+	display: inline-block;
+	list-style-type: none;
+	padding: 5px 25px;
+	position: relative;
+
+}
+.navClass > ul >li:hover {
+	background-color: #383838;
+
+}
+ul.sub-menu{
+	list-style-type: none;
+	position: absolute;
+	background-color: #383838;
+	width: 300px;
+	padding-left: 0px;
+	padding-top: 5px;
+	margin-left: -25px;
+	margin-top: 5px;
+	opacity: 0;
+}
+ul.sub-menu li{
+	padding-top: 5px;
+	padding-left: 25px;
+	padding-bottom: 5px;
+}
+.navClass li:hover .sub-menu{
+	opacity: 1;
+}
+.navClass ul li:hover{
+	color: #00FFB7;
+}
