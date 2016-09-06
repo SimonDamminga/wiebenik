@@ -1,20 +1,33 @@
+/* algemeen */
 body {	
 	background-color: white;
+	margin-left: -10px;
+	margin-top: -40px;
+	margin-right: -10px;
+}
+ul.text{
+	font-size: 20px;
+	font-family: Arial;
+	list-style-type: none;
+	padding-left: 60px;
+}
+p.text-een{
+	font-size: 20px;
+	font-family: Arial;
+	list-style-type: none;
+	padding-left: 60px;
+}
+/*text opmaak */
+h2{
+	padding-left: 60px;
+	font-family: Arial;
+	list-style-type: none;
+	font-size: 25px;
 }
 img{
-	border-style: inset;
-	border-color: #b3b3b3;
-	border-width: 7px;
-	position: center;
+	float: right;
 }
-img.dingus{
-	border-style: inset;
-	border-color: #b3b3b3;
-	border-width: 7px;
-	
-	padding-top: 407px;
-	padding-left: 607px;
-}
+
 header{
 	background-color: #333333;
 }
@@ -32,13 +45,17 @@ h1.titel {
 	color: #D8D8D8;
 	font-family: Arial;
 	font-size: 50px;
+	padding-top: 10px;
 }
+/*navigatie*/
 .navClass > ul {
 	background-color: #5E5D5D;
 	color: #D8D8D8;
 	font-size: 25px;
 	font-family: Arial;
-
+}
+.navClass ul:hover {
+	display: block;
 }
 .navClass > ul > li  {
 	display: inline-block;
@@ -49,6 +66,7 @@ h1.titel {
 }
 .navClass > ul >li:hover {
 	background-color: #383838;
+	cursor: pointer;
 
 }
 ul.sub-menu{
