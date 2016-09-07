@@ -4,30 +4,37 @@ body {
 	margin-left: -10px;
 	margin-top: -40px;
 	margin-right: -10px;
+	color: #D8D8D8;
+	background-repeat: no-repeat ;
+	background: url(background.jpg) no-repeat center center fixed;
+	background-size: cover;
 }
 ul.text{
-	font-size: 20px;
+	font-size: 30px;
 	font-family: Arial;
 	list-style-type: none;
 	padding-left: 60px;
 }
 p.text-een{
-	font-size: 20px;
+	font-size: 30px;
 	font-family: Arial;
 	list-style-type: none;
 	padding-left: 60px;
+	margin-right: 60px; 
+}
+img{
+	float: right;
+	padding-right: 60px;
+	border-style: inset;
+	border-color: gray;
 }
 /*text opmaak */
 h2{
 	padding-left: 60px;
 	font-family: Arial;
 	list-style-type: none;
-	font-size: 25px;
+	font-size: 35px;
 }
-img{
-	float: right;
-}
-
 header{
 	background-color: #333333;
 }
